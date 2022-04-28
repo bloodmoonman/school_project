@@ -1,6 +1,6 @@
 from project_school_roster import student_roster
 import itertools
-# Import modules above this line
+
 class ClassroomOrganizer:
   def __init__(self):
     self.sorted_names = self._sort_alphabetically(student_roster)
