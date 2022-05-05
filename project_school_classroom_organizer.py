@@ -13,7 +13,7 @@ class ClassroomOrganizer:
   def __next__(self): 
     self.count += 1
     next_student = self.sorted_names[self.count]
-    if self.count >= len(self.sorted_names) - 1: #IT WILL ITERATE FROM 1 TO 9TH ELEMENT, -1 BECAUSE OF THE 9TH ELEMENT.
+    if self.count >= len(self.sorted_names) - 1: 
       raise StopIteration
     return next_student
     
